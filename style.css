@@ -1,0 +1,19 @@
+#starCanvas {
+    position: fixed; /* Fixa o canvas na tela */
+    top: 0; /* Alinha o canvas ao topo da tela */
+    left: 0; /* Alinha o canvas à esquerda da tela */
+    width: 100%; /* Ocupa toda a largura da tela */
+    height: 100%; /* Ocupa toda a altura da tela */
+    z-index: -1; /* Coloca o canvas atrás de outros elementos */
+  }
+     
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centraliza verticalmente na tela */
+}
+
+h1 {
+    color: white;
+}
